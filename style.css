@@ -8,8 +8,8 @@ h1{font-size: 50px;
 h2{ font-size: 40px;
 
 }
-.name-color{
-    color: orange;
+.blue-higlight{
+    color: rgb(23, 184, 233);
 }
 .width{ width: 40%;
     float: left;
@@ -39,5 +39,21 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+
+}
+.singel-exp-area{ 
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    padding: 40px;
+}
+.exp-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{ border-left: 7px solid;
+border-image: liner-gradeing(180deg,lightsalmon, tomato);
+border-image-slice: 1;
 
 }
