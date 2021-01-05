@@ -53,7 +53,7 @@ section{
     background-position: left;
 }
 #full-stack{ border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato );
+    border-image: linear-gradient(180deg, rgb(241, 1, 1), rgb(0, 0, 0) );
     border-image-slice: 1;
 
 }
