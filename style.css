@@ -13,8 +13,8 @@ h2{ font-size: 40px;
 }
 .width{ width: 40%;
     float: left;
-    margin-left: 5%;
-    padding: left: 2%;
+    margin-left: 100px;
+    padding-left: 2%;
     
 }
 .width img{ width: 60%;
@@ -28,11 +28,11 @@ section{
     padding-bottom: 100px;
 }
 .link-button{ text-decoration: none;
-    background-image: linear-gradient(50deg, rgb(248, 108, 108),#F6F91A);
+    background-image: linear-gradient(50deg, rgb(223, 26, 26),#2b2c05);
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
-    font-weight: 200;
+    font-weight: bold;
 
 }
 .my-dream{
@@ -45,7 +45,7 @@ section{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     height: 80%;
-    padding: 40px;
+    background-color: white;
 }
 .exp-area{
     background-image: url("images/exp-bg.png");
@@ -53,7 +53,14 @@ section{
     background-position: left;
 }
 #full-stack{ border-left: 7px solid;
-border-image: liner-gradeing(180deg,lightsalmon, tomato);
-border-image-slice: 1;
+    border-image: linear-gradient(180deg, lightsalmon, tomato );
+    border-image-slice: 1;
 
+}
+#baby-s./web{ border-left:7px solid;
+border-image: linear-gradient( 180deg,blue, cyan);
+border-image-slice: 1;
+}
+#footer{
+    text-align: center;
 }
